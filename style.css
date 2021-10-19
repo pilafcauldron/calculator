@@ -1,0 +1,49 @@
+.flex-container{
+background: lightGrey;
+width: max-content;
+margin: auto;
+padding: 10px;
+background: gray;
+border-radius: 10px;
+}
+.display{
+max-width: 600px;
+background: #afeeee;
+height: 50px;
+font-size: 48px;
+display: flex;
+justify-content: flex-end;
+margin: 5px;
+padding: 15px;
+border-radius: 10px;
+}
+
+.buttons{
+max-width: 300px;
+display:flex;
+flex-wrap: wrap;
+}
+button{
+flex-grow: 1;
+flex-basis: 25%;
+padding: 10px;
+font-size: 40px;
+border-radius: 10px;
+margin: auto;
+}
+
+.btn-number{
+background-color:#d0d0d0;
+}
+
+.btn-operator {
+background-color:#afeeee;
+}
+
+.btn-result {
+background-color:red;
+}
+
+.btn-clear {
+background-color:crimson:
+}
